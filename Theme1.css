@@ -1,8 +1,18 @@
-.button { 
-   -fx-background-color: red; 
-   -fx-text-fill: white; 
+.title, .close-button, .min-button {
+  -fx-font-family: Arial;
+  -fx-font-weight: 700;
 }
 
-.body {
-  -fx-background-color: blue;
-} 
+.close-button, .min-button, .max-button {
+    -fx-font-size: 12px;
+    -fx-padding: 1px;
+    -fx-border-color: darkgreen;  /* "invisible" border */
+    -fx-border-size: 1px;
+    -fx-border-style: solid;
+}
+
+.close-button:hover, .min-button:hover, .max-button:hover {
+   -fx-border-color: white;
+   -fx-border-size: 1px;
+   -fx-border-style: solid;
+}
