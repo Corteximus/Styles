@@ -11,6 +11,10 @@
   -fx-font-size: 12px;
 }
 
+.root {
+    -tab-text-color: -fx-text-base-color ;
+}
+
 .tab-label {
     -fx-text-fill: -tab-text-color ;
 }
