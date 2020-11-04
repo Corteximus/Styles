@@ -10,3 +10,7 @@
   -fx-background-radius: 2 2 0 0;
   -fx-font-size: 12px;
 }
+
+.tab-label {
+    -fx-text-fill: -tab-text-color ;
+}
