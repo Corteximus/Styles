@@ -12,7 +12,12 @@
 }
 
 .root {
-    -tab-text-color: -fx-text-base-color ;
+  -fx-focus-color: transparent;
+  -tab-text-color: -fx-text-base-color ;
+}
+
+.button {
+  -fx-focus-color: transparent;
 }
 
 .tab-label {
